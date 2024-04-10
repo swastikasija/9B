@@ -1,4 +1,5 @@
 import "./App.css";
+import Content from "./components/Content";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Numbers from "./components/Numbers";
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Numbers/>
       <Team/>
+      <Content/>
     </>
   );
 }
