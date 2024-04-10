@@ -1,5 +1,6 @@
 import "./App.css";
 import Content from "./components/Content";
+import Featured from "./components/Featured";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Numbers from "./components/Numbers";
@@ -14,6 +15,8 @@ function App() {
       <Numbers/>
       <Team/>
       <Content/>
+      <Featured/>
+      <Check/>
     </>
   );
 }
