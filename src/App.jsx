@@ -16,7 +16,7 @@ function App() {
       <Team/>
       <Content/>
       <Featured/>
-      <Check/>
+      {/* <Check/> */}
     </>
   );
 }
