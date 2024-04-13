@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Numbers from "./components/Numbers";
 import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Team/>
       <Content/>
       <Featured/>
-      {/* <Check/> */}
+      <Testimonials/>
     </>
   );
 }
